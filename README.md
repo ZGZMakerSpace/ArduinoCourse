@@ -11,7 +11,7 @@ Durante este curso daremos los pasos necesarios para empezar a desarrollar progr
 Elaborar algunos programas para aprender a programar y desarrollar nuestros primeros proyectos con Arduino.
 
 <br>
-<h3><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Documentation Online</a></h3>
+<h3><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Documentación Online</a></h3>
 
 <h3>Programación y guión del curso.</h3>
 <ol>
