@@ -95,6 +95,6 @@ Es el momento de elegir cuál es tu nivel y cuál es el robot que mejor se ajust
 <p align="center">
   <img  src="rsc/IMG/RemoteCar.jpg" width="200"/>
   <img  src="rsc/IMG/RemoteBiped.jpg" width="200"/>
-  <img  src="rsc/IMG/HighSpeed_FollowLine.jpg" width="200"/>
+  <img  src="rsc/IMG/HighSpeed_FollowLine.png" width="200"/>
   
 </p>
