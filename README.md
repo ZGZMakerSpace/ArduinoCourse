@@ -16,11 +16,11 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 
 <h3>Programación y guión del curso.</h3>
 <ol>
- 	<li><a href="https://zone.zaragozamakerspace.com/en/arduino">Instalación del IDE de  Arduino</a>
+ 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-instalacion-ide-de-arduino/">Instalación del IDE de  Arduino</a>
 <ul>
- 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-first-class/">Familiarización con el entorno Ardublockly</a></li>
+ 	<li><a href="https://zaragozamakerspace.com/index.php/arduino-online-como-usar-ardublockly/">Familiarización con el entorno Ardublockly</a></li>
  	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-serial-monitor/">Comunicación Serie - Debug y visualización gráfica de variables con <strong>Serial Plotter</strong></a></li>
- 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-first-class/">Entradas y Salidas digitales/analógicas</a></li>
+ 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-entradas-y-salidas/">Entradas y Salidas digitales/analógicas">Entradas y Salidas digitales/analógicas</a></li>
  	<li><a href="https://zaragozamakerspace.com/index.php/lessons/control-umbral/" target="_blank" rel="noopener">Arduino Threshold - Control umbral</a></li>
 </ul>
 </li>
