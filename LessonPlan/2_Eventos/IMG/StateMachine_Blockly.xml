@@ -1,0 +1,708 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="arduino_functions" id="X3y_KRbk~=WmPJ?HEpa%" inline="true" x="109" y="82">
+    <statement name="SETUP_FUNC">
+      <block type="variables_set" id="8d+O~X;i)1Mr]JQM~ob:">
+        <field name="VAR">LED_1</field>
+        <value name="VALUE">
+          <block type="variables_set_type" id="8Wf,]a}Zvt[B;H3]@zwR">
+            <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+            <value name="VARIABLE_SETTYPE_INPUT">
+              <block type="math_number" id="w(i@R~6bB3U,6S|+7/nQ">
+                <field name="NUM">9</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="3/Bb|*SO?))dEdV#1D!`">
+            <field name="VAR">LED_2</field>
+            <value name="VALUE">
+              <block type="variables_set_type" id="Q#TXtlGYq#i,l=3cLU)]">
+                <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                <value name="VARIABLE_SETTYPE_INPUT">
+                  <block type="math_number" id="@{}4~O=nEmKxv/Zbx?]G">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="GY6To^q%9cz_JH,n/u9F">
+                <field name="VAR">LED_3</field>
+                <value name="VALUE">
+                  <block type="variables_set_type" id="_G5t#chV?P.5I_M#E*ve">
+                    <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                    <value name="VARIABLE_SETTYPE_INPUT">
+                      <block type="math_number" id="FDX:FpGb^5mrzo*PS)kV">
+                        <field name="NUM">11</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="1=,/:cU2%4nA(ze1Hg4(">
+                    <field name="VAR">COIN_1</field>
+                    <value name="VALUE">
+                      <block type="variables_set_type" id="4do9F(QCO^Oa4;DLnz%=">
+                        <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                        <value name="VARIABLE_SETTYPE_INPUT">
+                          <block type="math_number" id="0SR?vg?C:T2#qH~wFig*">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="n=|}5C0,xkjQy.n:;Vlc">
+                        <field name="VAR">COIN_2</field>
+                        <value name="VALUE">
+                          <block type="variables_set_type" id="^{D]ByTYxARzMVF*Kd)g">
+                            <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                            <value name="VARIABLE_SETTYPE_INPUT">
+                              <block type="math_number" id="kCh;6xWp?[Y1Ek9fn,a4">
+                                <field name="NUM">3</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="~@.#]9mHMX5-V-jn0bSo">
+                            <field name="VAR">RESET</field>
+                            <value name="VALUE">
+                              <block type="variables_set_type" id="b`~YR70XDAsx0mf1QO^?">
+                                <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                                <value name="VARIABLE_SETTYPE_INPUT">
+                                  <block type="math_number" id="^qO`@|.NBZkU%Rz~bjN}">
+                                    <field name="NUM">4</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="?pe7DzsP}wHM1%u[J(fV">
+                                <field name="VAR">state_BTN1</field>
+                                <value name="VALUE">
+                                  <block type="variables_set_type" id="wo5%j,okOT^z/q.E_f[V">
+                                    <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                                    <value name="VARIABLE_SETTYPE_INPUT">
+                                      <block type="math_number" id="uWCW)43ikxP7A%}+cYn7">
+                                        <field name="NUM">0</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="ae]QvOF(7FgG*qN:).P{">
+                                    <field name="VAR">state_BTN2</field>
+                                    <value name="VALUE">
+                                      <block type="variables_set_type" id="%mVk7X*Yv6RuI?0oxfYn">
+                                        <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                                        <value name="VARIABLE_SETTYPE_INPUT">
+                                          <block type="math_number" id="IkeQPg5!PX,?EFM2]MlB">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="k9!G`2lo~ga)3xynC9:%">
+                                        <field name="VAR">state_RESET</field>
+                                        <value name="VALUE">
+                                          <block type="variables_set_type" id="#L?wg6:PxTPgZ-^GQ~sa">
+                                            <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                                            <value name="VARIABLE_SETTYPE_INPUT">
+                                              <block type="math_number" id="OQcWs9Z*-~u-{rT)bp4j">
+                                                <field name="NUM">0</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="%Fr4TwvpRvl9dU151[9(">
+                                            <field name="VAR">sum</field>
+                                            <value name="VALUE">
+                                              <block type="variables_set_type" id="ey7z)p-vlcbe1cT}MU18">
+                                                <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+                                                <value name="VARIABLE_SETTYPE_INPUT">
+                                                  <block type="math_number" id="gP_kPd,otn-JneRY~b+n">
+                                                    <field name="NUM">0</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="LOOP_FUNC">
+      <block type="set_event" id="(zQId3/%U6HO,`LrP*.C">
+        <field name="operator">!=</field>
+        <value name="input">
+          <block type="read_digital_input" id=".de+=EH]8*yk/||7Eon7">
+            <value name="pin">
+              <block type="variables_get" id="Ia}f87vtve*oGlrZm]}9">
+                <field name="VAR">COIN_1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="var">
+          <block type="variables_get" id="_U)4Jt(%5lo`P,1spWWF">
+            <field name="VAR">state_BTN1</field>
+          </block>
+        </value>
+        <statement name="action">
+          <block type="controls_if" id="})gGOzAUtUXJz0mkCcRC">
+            <value name="IF0">
+              <block type="logic_compare" id="-Q*p{Jt7@oY3/xXfd+L{">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="read_digital_input" id="kX1nd/?1]AdtI6a{y[!p">
+                    <value name="pin">
+                      <block type="variables_get" id="70g5)r+lKhQ-{K%qkKxl">
+                        <field name="VAR">COIN_1</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_boolean" id="i((,Pp:BgLXX/DhaO2z7">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="E5tlc2NoFdtf|#BnQ.1#">
+                <field name="VAR">sum</field>
+                <value name="VALUE">
+                  <block type="math_arithmetic" id="H3l:m2ss:DbD}@IEb=pv">
+                    <field name="OP">ADD</field>
+                    <value name="A">
+                      <block type="variables_get" id=".Q+y!b7=0}=8.~xJh{ka">
+                        <field name="VAR">sum</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="Zn0L!:):{T.3x7Usto5@">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="procedures_callnoreturn" id="S%q%L4S8a.*B/N@r!uVj">
+                <mutation name="LED_Status">
+                  <arg name="status"></arg>
+                </mutation>
+                <value name="ARG0">
+                  <block type="variables_get" id="f1Pb8BC[2j|bNCidYb|j">
+                    <field name="VAR">sum</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="set_event" id="_Fq4Ij|G(8huv~M`Ga6k">
+            <field name="operator">!=</field>
+            <value name="input">
+              <block type="read_digital_input" id="C[=pPyNBf-lyJ{%^EO;4">
+                <value name="pin">
+                  <block type="variables_get" id="8g5SouV=Mpi.2RP{:ra|">
+                    <field name="VAR">COIN_2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="var">
+              <block type="variables_get" id="q~*,w]CO2?Lt]nxbF~2;">
+                <field name="VAR">state_BTN2</field>
+              </block>
+            </value>
+            <statement name="action">
+              <block type="controls_if" id="V-YhwG{8!V{.N^]m-=8b">
+                <value name="IF0">
+                  <block type="logic_compare" id="8QdNDy,):wos1c-,uBQN">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="read_digital_input" id="lLt9mauh_Nr8*Zb{aCe1">
+                        <value name="pin">
+                          <block type="variables_get" id="-/2mnd?:3%PG9OeosIpt">
+                            <field name="VAR">COIN_2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="logic_boolean" id="z%T9alTo-@~9szaTpG)@">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="variables_set" id="Ar%[L(x*]oK=G,PxjWKu">
+                    <field name="VAR">sum</field>
+                    <value name="VALUE">
+                      <block type="math_arithmetic" id="jGv!3z#m+6Ap/pY9MT54">
+                        <field name="OP">ADD</field>
+                        <value name="A">
+                          <block type="variables_get" id="NGa0U^6+dc7lSE0B{nhL">
+                            <field name="VAR">sum</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="a0/hUaq,tRGst+J~lBfE">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="procedures_callnoreturn" id="*Mww(+H9s3}E+mMVq:{u">
+                    <mutation name="LED_Status">
+                      <arg name="status"></arg>
+                    </mutation>
+                    <value name="ARG0">
+                      <block type="variables_get" id="nHn]MM`CGV13FTWz1#*[">
+                        <field name="VAR">sum</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="set_event" id="LBOi)~r|GU9d%Q#@|NpT">
+                <field name="operator">!=</field>
+                <value name="input">
+                  <block type="read_digital_input" id="/)[d|cI;o~B;^xiLUECh">
+                    <value name="pin">
+                      <block type="variables_get" id="z0:Jgp:a+[tnZ{(Mfxyt">
+                        <field name="VAR">RESET</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="var">
+                  <block type="variables_get" id="/b98(y2v.=R]pJe/]vtb">
+                    <field name="VAR">state_RESET</field>
+                  </block>
+                </value>
+                <statement name="action">
+                  <block type="variables_set" id="^@|h5e^=aR,nw`%.l5W;">
+                    <field name="VAR">sum</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="D3z?-u)mY}T9q])(uyhJ">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="set_digital_output" id="ZzLpM%tf6K~6!qU3zsR.">
+                        <value name="pin">
+                          <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                            <field name="NUM">10</field>
+                          </shadow>
+                          <block type="variables_get" id="mO2aB#=oN*rg(86rZs|D">
+                            <field name="VAR">LED_1</field>
+                          </block>
+                        </value>
+                        <value name="value">
+                          <block type="io_highlow" id="#@-y;W:B90*PK)U2]:x!">
+                            <field name="STATE">LOW</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="set_digital_output" id="I0d1S93!jkc+a=3-jSj3">
+                            <value name="pin">
+                              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                <field name="NUM">10</field>
+                              </shadow>
+                              <block type="variables_get" id="!Ybu9saRIi}lXU[:VeMR">
+                                <field name="VAR">LED_2</field>
+                              </block>
+                            </value>
+                            <value name="value">
+                              <block type="io_highlow" id="ly^pZ3rpGcXkdXPik|me">
+                                <field name="STATE">LOW</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="set_digital_output" id="+Jb=~O[hr{;Soz#vB3.k">
+                                <value name="pin">
+                                  <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                    <field name="NUM">10</field>
+                                  </shadow>
+                                  <block type="variables_get" id=")E84Z=v9X+nFSD.BL-S1">
+                                    <field name="VAR">LED_3</field>
+                                  </block>
+                                </value>
+                                <value name="value">
+                                  <block type="io_highlow" id="E#LOWPd{S[.F@01e*f8i">
+                                    <field name="STATE">LOW</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="g4}#5*(ZOHst6n-^6tYo" x="761" y="75">
+    <mutation>
+      <arg name="status"></arg>
+    </mutation>
+    <field name="NAME">LED_Status</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="controls_if" id="Usv/wRY|Pj](hqbfDp%p">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="vuPip*GCBmQXR?BS!a;a">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="9v.hos{{gMq`n[d3-J/o">
+                <value name="DIVIDEND">
+                  <block type="variables_get" id="FznhLKuY=}Y|mhE(7X(u">
+                    <field name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <block type="math_number" id="TY#kd}F+Nc1u}Ak.)+_X">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="mIcj!9zGzNy|mLF]SOBG">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="set_digital_output" id="+.]wf/b[k|GU0RGQyTzF">
+            <value name="pin">
+              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                <field name="NUM">10</field>
+              </shadow>
+              <block type="variables_get" id="4R|@TZIp@Y;dWwLYTK3z">
+                <field name="VAR">LED_1</field>
+              </block>
+            </value>
+            <value name="value">
+              <block type="io_highlow" id="qUJyK|4aZbQUUOhW=h/)">
+                <field name="STATE">HIGH</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="set_digital_output" id="[`bMM_|weMSy2-oc?i[6">
+            <value name="pin">
+              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                <field name="NUM">10</field>
+              </shadow>
+              <block type="variables_get" id=";IK_9Qkm)2AwgR0(^Xp7">
+                <field name="VAR">LED_1</field>
+              </block>
+            </value>
+            <value name="value">
+              <block type="io_highlow" id="}`%8*?7VP5ziPholHv}3">
+                <field name="STATE">LOW</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="variables_set" id="2/yoP1n{VfLWpX;=Qe7A">
+            <field name="VAR">status</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="c_sl1h3L*^qDi).XklJB">
+                <field name="OP">DIVIDE</field>
+                <value name="A">
+                  <block type="variables_get" id="oJOdx8B92-U~Uc%HSLfa">
+                    <field name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="(82Gz=+1@gPY*Zz=GBa{">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="~oZv{+6{{y3-N:=-9I6S">
+                <mutation else="1"></mutation>
+                <value name="IF0">
+                  <block type="logic_compare" id="kT=byo!oI79dJqWa5nd~">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="math_modulo" id="VW)Uc~uZd=^SwE8@A,/{">
+                        <value name="DIVIDEND">
+                          <block type="variables_get" id="?(ofP]`X0i7(}lu?PIPZ">
+                            <field name="VAR">status</field>
+                          </block>
+                        </value>
+                        <value name="DIVISOR">
+                          <block type="math_number" id="lLZfRDkUWFU6d0,,HnWn">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="rp_v!H}?qOK|OH{v{-Um">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="set_digital_output" id="2J}tBWRR/m5g5DidZz=3">
+                    <value name="pin">
+                      <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                        <field name="NUM">10</field>
+                      </shadow>
+                      <block type="variables_get" id="yJq}H%?x?!ezr8[B_0rq">
+                        <field name="VAR">LED_2</field>
+                      </block>
+                    </value>
+                    <value name="value">
+                      <block type="io_highlow" id=",3@,Gn+~KQSkvK[CTFBf">
+                        <field name="STATE">HIGH</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="set_digital_output" id="nv0}:RuosgoiosxT0YjT">
+                    <value name="pin">
+                      <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                        <field name="NUM">10</field>
+                      </shadow>
+                      <block type="variables_get" id="g/a)TaqM#8.tO/564iY:">
+                        <field name="VAR">LED_2</field>
+                      </block>
+                    </value>
+                    <value name="value">
+                      <block type="io_highlow" id="!6%B=vvJ^|Q*PkV,XqY0">
+                        <field name="STATE">LOW</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="variables_set" id="a4F6ioWpd455X,t.K@#H">
+                    <field name="VAR">status</field>
+                    <value name="VALUE">
+                      <block type="math_arithmetic" id="v?TZ[vVMz?,RUkw:;{Q1">
+                        <field name="OP">DIVIDE</field>
+                        <value name="A">
+                          <block type="variables_get" id="],31HZE9dv,1at0+j.!+">
+                            <field name="VAR">status</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="pE-^oXu8L#BY[s!{DkC3">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="controls_if" id="o9ak2pG-o`CKTi,#b%hN">
+                        <mutation else="1"></mutation>
+                        <value name="IF0">
+                          <block type="logic_compare" id="dM%;@S8yC=Hj5R(K5jv9">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="math_modulo" id="~os}jcG@6QH,Ddpl91ge">
+                                <value name="DIVIDEND">
+                                  <block type="variables_get" id="pR%vpv]1nlda7*Y[85L~">
+                                    <field name="VAR">status</field>
+                                  </block>
+                                </value>
+                                <value name="DIVISOR">
+                                  <block type="math_number" id="1pqtn#m/OP4czYdF:-[i">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="r.qcBJX~i`5]IB-_xM}!">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="set_digital_output" id="uUF0|GlxSX(*vwzm-xi;">
+                            <value name="pin">
+                              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                <field name="NUM">10</field>
+                              </shadow>
+                              <block type="variables_get" id="YcmwI}Yv;)syWN+uRVWg">
+                                <field name="VAR">LED_3</field>
+                              </block>
+                            </value>
+                            <value name="value">
+                              <block type="io_highlow" id="ntVVoGFZz,5owOlEk]_s">
+                                <field name="STATE">HIGH</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <statement name="ELSE">
+                          <block type="set_digital_output" id="pZ6-o~MO]Zy5)ua|=JpW">
+                            <value name="pin">
+                              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                <field name="NUM">10</field>
+                              </shadow>
+                              <block type="variables_get" id="Oy_/11C}Z-}tlGrh=-GV">
+                                <field name="VAR">LED_3</field>
+                              </block>
+                            </value>
+                            <value name="value">
+                              <block type="io_highlow" id="0DPW?YzPE(Cq3jfZqkma">
+                                <field name="STATE">LOW</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="variables_set" id="#YTy3Z+^*eH2?o]sS|B.">
+                            <field name="VAR">status</field>
+                            <value name="VALUE">
+                              <block type="math_arithmetic" id="C{.Jq9}{baeRK~u+xfd^">
+                                <field name="OP">DIVIDE</field>
+                                <value name="A">
+                                  <block type="variables_get" id="swyQxz{.2pd,FN6|i(4u">
+                                    <field name="VAR">status</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="pM,^FVk4qwkQp+mrFjY?">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="controls_if" id="+y{NO!d00ZT]{hU/Y{Rx">
+                                <value name="IF0">
+                                  <block type="logic_compare" id="3u`]KuKnISCL4xoFNGUY">
+                                    <field name="OP">GT</field>
+                                    <value name="A">
+                                      <block type="variables_get" id="mCVZ,)xt!2=`Z9w?rl?B">
+                                        <field name="VAR">status</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="math_number" id="eAHx?`H|+DL3E*:S!MyF">
+                                        <field name="NUM">0</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="set_digital_output" id="NhLzkh{euS)Ny~IZNT=_">
+                                    <value name="pin">
+                                      <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                        <field name="NUM">10</field>
+                                      </shadow>
+                                      <block type="variables_get" id="WG1uIJl%Z^s;0ShE6}^!">
+                                        <field name="VAR">LED_1</field>
+                                      </block>
+                                    </value>
+                                    <value name="value">
+                                      <block type="io_highlow" id="VqpXO/:ZejANx~1xBUQ1">
+                                        <field name="STATE">LOW</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="set_digital_output" id="Wdnq?jHwO4bU5tz:mG03">
+                                        <value name="pin">
+                                          <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                            <field name="NUM">10</field>
+                                          </shadow>
+                                          <block type="variables_get" id="^2q8P-(Y/z4Rs?-V1K(+">
+                                            <field name="VAR">LED_2</field>
+                                          </block>
+                                        </value>
+                                        <value name="value">
+                                          <block type="io_highlow" id="8pE2I;~NkW0Z3Lt{++[j">
+                                            <field name="STATE">LOW</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="set_digital_output" id="T6G~RxIBjlt3jc?xxd4g">
+                                            <value name="pin">
+                                              <shadow type="math_number" id="6ywWQh)DI:wE!)6Gl8`-">
+                                                <field name="NUM">10</field>
+                                              </shadow>
+                                              <block type="variables_get" id="Ks_.oK0#^c-6kj4W,Ks9">
+                                                <field name="VAR">LED_3</field>
+                                              </block>
+                                            </value>
+                                            <value name="value">
+                                              <block type="io_highlow" id="_@_o8aL(aLNeCaLZQ9yh">
+                                                <field name="STATE">LOW</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
