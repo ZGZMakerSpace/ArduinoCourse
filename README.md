@@ -31,36 +31,12 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 
 		</ul>
 	</li>
-	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-instalacion-ide-de-arduino/">Instalación del IDE de  Arduino</a>
+	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-estrategias-antibloqueo-en-bucle/">Funcionamiento de Arduino en bucle aplicado a robótica - Estrategias antibloqueo</a>
 		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/arduino-online-como-usar-ardublockly/">Familiarización con el entorno Ardublockly</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-serial-monitor/">Comunicación Serie - Debug y visualización gráfica de variables con <strong>Serial Plotter</strong></a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-entradas-y-salidas/">Entradas y Salidas digitales/analógicas">Entradas y Salidas digitales/analógicas</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/control-umbral/" target="_blank" rel="noopener">Arduino Threshold - Control umbral</a></li>
-		</ul>
-	</li>
-	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-instalacion-ide-de-arduino/">Instalación del IDE de  Arduino</a>
-		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/arduino-online-como-usar-ardublockly/">Familiarización con el entorno Ardublockly</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-serial-monitor/">Comunicación Serie - Debug y visualización gráfica de variables con <strong>Serial Plotter</strong></a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-entradas-y-salidas/">Entradas y Salidas digitales/analógicas">Entradas y Salidas digitales/analógicas</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/control-umbral/" target="_blank" rel="noopener">Arduino Threshold - Control umbral</a></li>
-		</ul>
-	</li>
-	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-instalacion-ide-de-arduino/">Instalación del IDE de  Arduino</a>
-		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/arduino-online-como-usar-ardublockly/">Familiarización con el entorno Ardublockly</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-serial-monitor/">Comunicación Serie - Debug y visualización gráfica de variables con <strong>Serial Plotter</strong></a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-entradas-y-salidas/">Entradas y Salidas digitales/analógicas">Entradas y Salidas digitales/analógicas</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/control-umbral/" target="_blank" rel="noopener">Arduino Threshold - Control umbral</a></li>
-		</ul>
-	</li>
-	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-instalacion-ide-de-arduino/">Instalación del IDE de  Arduino</a>
-		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/arduino-online-como-usar-ardublockly/">Familiarización con el entorno Ardublockly</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-serial-monitor/">Comunicación Serie - Debug y visualización gráfica de variables con <strong>Serial Plotter</strong></a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-robotica-entradas-y-salidas/">Entradas y Salidas digitales/analógicas">Entradas y Salidas digitales/analógicas</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/control-umbral/" target="_blank" rel="noopener">Arduino Threshold - Control umbral</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-eventos-discretos-y-maquinas-de-estados/">Basado en evento discretos - Máquinas de estados</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-eventos-temporales/">Basado en eventos de tiempo</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-interrupciones/">Interrupciones</a></li>
+
 		</ul>
 	</li>
 </ol>
