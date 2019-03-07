@@ -32,6 +32,14 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 		</ul>
 	</li>
 
+	<li>Servomotores
+		<ul>
+			<li> <a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-servomotores/">Control en Bucle </a></li>
+			<li> <a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-servomotores-casos-de-calibracion/">Casos de Calibración</a></li>
+			<li> <a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-servomotores-movimiento-senoidal/"> Movimiento Senoidal </a></li>
+		</ul>
+	</li>
+
 </ol>
 
 
