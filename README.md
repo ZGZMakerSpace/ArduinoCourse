@@ -42,8 +42,8 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 
 	<li>Librerías
 		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Librería SoftwareSerial - Instalación de librerías desde el repositorio oficial</li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Filosofía open software - Instalación de librerías no oficiales</li>
+			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Librería SoftwareSerial - Instalación de librerías desde el repositorio oficial</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Filosofía open software - Instalación de librerías no oficiales</a></li>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-comunicacion-bluetooth/">Comunicación Bluetooth</a></li>
 		</ul>
 	</li>
