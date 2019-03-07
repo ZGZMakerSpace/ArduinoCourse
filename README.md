@@ -28,7 +28,6 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-eventos-discretos-y-maquinas-de-estados/">Basado en evento discretos - Máquinas de estados</a></li>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-eventos-temporales/">Basado en eventos de tiempo</a></li>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-interrupciones/">Interrupciones</a></li>
-
 		</ul>
 	</li>
 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-estrategias-antibloqueo-en-bucle/">Funcionamiento de Arduino en bucle aplicado a robótica - Estrategias antibloqueo</a>
