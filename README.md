@@ -39,12 +39,11 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 	</li>
 	<li>Librerías
 		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Librería SoftwareSerial - Instalación de librerías desde el repositorio oficial</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Filosofía open software - Instalación de librerías no oficiales</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-comunicacion-bluetooth/">Comunicación Bluetooth</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-instalacion-de-librerias-no-oficiales-filosofia-open-software/">Filosofía open software - Instalación de librerías no oficiales</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-comunicacion-bluetooth/">Librería SoftwareSerial - Comunicación Bluetooth</a></li>
 		</ul>
 	</li>
-	<li>Motor DC
+	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-motores-dc/">Motor DC</a>
 		<ul>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-driver-l298n-etapa-de-potencia/">Driver o alimentación  - Etapa de potencia</a></li>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-sensor-optico-encoder-wheel/">Sensor óptico + Encoder Wheel</a></li>
@@ -52,15 +51,14 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 	</li>
 	<li> Vectores
 		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Asociar el uso de bucles a secuencias</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Cálculo de la media</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-arrays-o-vectores/">Arrays o vectores - Uso de bucles</a></li>
 			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Estrategias de diseño aplicados a la programación</a></li>
 		</ul>
 	</li>
 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-motores-paso-a-paso/">Motores paso a paso</a>
 		<ul>
 			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-arduino-y-robotica-motores-paso-a-paso/">Conexión e instalación</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Control por driver, instalación de librería AccelStepper</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-libreria-accelstepper/">Control por driver, instalación de librería AccelStepper</a></li>
 		</ul>
 	</li>
 	<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-i2c/">I2C</a>
@@ -71,9 +69,8 @@ Elaborar algunos programas para aprender a programar y desarrollar nuestros prim
 	</li>
 	<li> ICSP
 		<ul>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Qué es ICSP?</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Como programar un Arduino por ICSP</a></li>
-			<li><a href="https://zaragozamakerspace.com/index.php/courses/curso-basico-arduino/">Dispositivos útiles conectados por ICSP</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-icsp/">Qué es ICSP?</a></li>
+			<li><a href="https://zaragozamakerspace.com/index.php/lessons/curso-de-arduino-y-robotica-programar-arduino-por-icsp/">Como programar un Arduino por ICSP</a></li>
 		</ul>
 	</li>
 </ol>
