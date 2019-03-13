@@ -23,7 +23,7 @@ void setup()
   Serial.begin(9600);
 
   //-- Attach the oscillator to servo
-  osc.attach(11);
+  osc.attach(10);
   osc.SetT(1000);
   osc.SetA(40);
   osc.SetO(40);
