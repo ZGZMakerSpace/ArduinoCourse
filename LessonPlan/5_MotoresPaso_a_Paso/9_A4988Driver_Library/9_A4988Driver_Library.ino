@@ -28,6 +28,7 @@ void setup() {
   Serial.begin(9600);
   stepper.begin(RPM, MICROSTEPS);
   stepper.enable();
+  stepper.setSpeedProfile( stepper.LINEAR_SPEED );
 }
 
 void loop() {
